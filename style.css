@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(102, 255, 209);
+    text-align: left-aligned;
+}
+h1{
+    text_align:center
+}
+p{
+    color: blue
+}
+.left-aligned{
+    text-align: left;
+}
+
+#larger-text{
+    font-size: 3em;
+}
+
+*{
+    
+}
