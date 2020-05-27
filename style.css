@@ -29,11 +29,15 @@ body{
 nav *{
     display: inline-block;
     color: var(--darkblue-color);
+    
 }
 
 nav{
     background-color: var(--purpleish-color);
     width: 100%;
+    display: flex;
+    align-items: center;
+    
 }
 
 .logo{
@@ -50,23 +54,58 @@ nav{
     color: var(--darkblue-color);
     padding: 70px 70px 10px 70px;
     font-size: 28px;
+    max-width: 800px;
 }
 
 #about{
     color: var(--darkblue-color);
     padding: 30px 30px 100px 70px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #about img {
-    width: 150px;
-    height: 150px;
-    margin-left: 0px;
+    width: 250px;
+    height: 250px;
     cursor: pointer;
 
 }
 
+.titlepic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.titlepic2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+#about p {
+    max-width: 600px;
+    margin-top: 0;
+}
+
+.textbutton {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.textbutton2 {
+    display: flex;
+    flex-direction: column;
+}
+
 #about h2 {
     font-size: 24px;
+    margin-top: 0;
 }
 
 #case{
@@ -88,11 +127,17 @@ nav{
 .card{
     padding: 30px 0 30px 0px;
     font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .card h3 {
     font-size: 24px;
-    margin-top: 0px;
+}
+
+.textbutton2 {
+    max-width: 600px;
 }
 
 .tools {
@@ -107,7 +152,7 @@ nav{
     background-color: var(--purpleish-color);
     color: var(--darkblue-color);
     font-size: 12px;
-    
+    margin: 0;
 
     border: 2px solid var(--darkblue-color);
     border-radius: 20px;
@@ -121,6 +166,7 @@ nav{
 #hey {
     text-decoration: underline;
 }
+
 
 footer{
     color: #666;
